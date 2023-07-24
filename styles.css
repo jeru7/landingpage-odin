@@ -81,7 +81,7 @@ a {
   color: #e5e7eb;
 }
 
-button {
+.first-container button {
   padding: 5px 10px;
   width: 120px;
   background: #3882f6;
@@ -89,4 +89,93 @@ button {
   border: none;
   margin-top: 15px;
   color: white;
+}
+
+.second-container {
+  text-align: center;
+  padding: 20px;
+  height: 450px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin: 10px auto 15px auto;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 16px;
+}
+
+.outer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.third-container {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px 50px;
+}
+
+.third-container em {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.fourt-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 40px;
+}
+
+.content-fourth-container {
+  display: flex;
+  background-color: #3882f6;
+  color: whitesmoke;
+  padding: 50px 60px;
+  border-radius: 7px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.fourt-container .content-fourth-container .fourth-left p {
+  font-size: 14px;
+}
+
+.fourth-left h3 {
+  font-size: 24px;
+}
+
+.fourth-right button {
+  border: solid white 3px;
+  color: white;
+  padding: 5px 10px;
+  width: 120px;
+  background: #3882f6;
+  border-radius: 7px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 20px;
+  text-align: center;
 }
