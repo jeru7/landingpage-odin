@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#">Features</a></li>
+          <li><a class="nav-link" href="#">How It Works</a></li>
+          <li><a class="nav-link" href="#">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="POST"
+        >
+          <h1 class="form-head">Handcrafted, home-made masterpieces</h1>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input
+            id="submit"
+            type="submit"
+            class="buttons"
+            value="GET STARTED"
+          />
+        </form>
+      </section>
+
+      <div class="feature-container" id="features">
+        <div class="info">
+          <div class="content">
+            <i class="fa fa-3x fa-fire"></i>
+            <h2>Premium Materials</h2>
+            <p class="text">
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increaase the longetivity of your purchase.
+            </p>
+          </div>
+
+          <div class="content">
+            <i class="fa fa-3x fa-truck"></i>
+            <h2>Fast Shipping</h2>
+            <p class="text">
+              We make sure you receive your trombone as soon as we have finished
+              making it. We also provife free returns if you are not satisfied.
+            </p>
+          </div>
+
+          <div class="content">
+            <i class="fa fa-3x fa-battery-full"></i>
+            <h2>Quality Assurance</h2>
+            <p class="text">
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="media" id="how_it_works">
+        <iframe
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/FernSZtxZcs"
+        >
+        </iframe>
+      </div>
+
+      <div id="price">
+        <div class="products">
+          <h3 class="product-title">Tenor Trombone</h3>
+          <p class="product-price">$1200</p>
+          <p class="product-description">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="select">Select</button>
+        </div>
+        <div class="products">
+          <h3 class="product-title">Bass Trombone</h3>
+          <p class="product-price">$900</p>
+          <p class="product-description">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="select">Select</button>
+        </div>
+        <div class="products">
+          <h3 class="product-title">Valve Trombone</h3>
+          <p class="product-price">$600</p>
+          <p class="product-description">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="buttons">Select</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Contact</li>
+      </ul>
+
+      <p>Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
+</html>
