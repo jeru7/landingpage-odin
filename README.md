@@ -1,3 +1,3 @@
-# landing-page
-This is the landing page project in freeCodeCamp<br>
-I'll replace it with my own design soon.
+# landing-page - This is the landing page project in freeCodeCamp
+## [Visit site] (https://jeru7.github.io/landing-page/)
+
