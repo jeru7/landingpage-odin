@@ -19,4 +19,4 @@ I will improve this assignment as I learned more about the stacks it uses.
 ## Tech Stack
 
 - HTML
-- CSS
+-
