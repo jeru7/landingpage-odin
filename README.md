@@ -1,4 +1,22 @@
-# landing-page (Ongoing)
+# Landing Page - TheOdinProject Assignment
 
-This is the Landing page project in TheOdinProject.
-## _[View the site](https://jeru7.github.io/LandingPage-TheOdinProject/)_
+## Description
+
+This is my submission for TOP's landing page assignment.
+
+## Live site
+
+This is the live version of the landing page: [Visit site](https://jeru7.github.io/landingpage/)
+
+## Preview
+
+![Screenshot](landingpage.png "Sample photo of the site")
+
+## Plans
+
+I will improve this assignment as I learned more about the stacks it uses.
+
+## Tech Stack
+
+- HTML
+- CSS
