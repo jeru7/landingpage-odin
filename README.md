@@ -6,7 +6,7 @@ This is my submission for TOP's landing page assignment.
 
 ## Live site
 
-Feel free to check the live version of the landing page: [Visit site](https://jeru7.github.io/landingpage/)
+Feel free to check the live version of the landing page: [Visit site](https://jeru7.github.io/landingpage-odin/)
 
 ## Preview
 
